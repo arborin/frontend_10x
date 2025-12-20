@@ -6,8 +6,43 @@
         <title>Document</title>
     </head>
     <body>
-        <form action="test">
-            <input type="text" />
-        </form>
+        <main>
+            <h1>Welcome!</h1>
+            <form action="">
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="email"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="telegram">telegram</label>
+                    <input
+                        type="text"
+                        name="telegram"
+                        id="telegram"
+                        placeholder="Relegram"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="topic">Topic</label>
+                    <select name="topic" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Comment</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </main>
     </body>
 </html>
