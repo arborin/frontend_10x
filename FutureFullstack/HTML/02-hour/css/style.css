@@ -1,0 +1,26 @@
+main {
+    background-color: #1e1f29;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #fafafa;
+    font-weight: 700;
+
+}
+
+input,
+textarea,
+select {
+    background: #3e2d3d;
+    color: #fafafa;
+}
+
+label {
+    color: #afb2bf;
+}
+
+button {
+    background-color: #6c38cc;
+    color: #fafafa;
+}
