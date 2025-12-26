@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#heroButton {
+    background-color: #4262ff;
+    color: #fff;
+}
+
+.link {
+    color: #4262ff;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #0e36fc;
+}
+
+a::after {
+    color: red;
+    content: " --> ";
+}
+
+.heroForm input:focus {
+    background-color: #c2ccff;
+}
+
+input[type="email"] {
+    color: #4262ff;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+
+h1,
+h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #050038
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.heroText {
+    color: #050038
+}
+
+.sectionText {
+    background: rgba(5, 0, 56, 0.6);
+}
+
+header a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    color: #050038;
+    ;
+}
